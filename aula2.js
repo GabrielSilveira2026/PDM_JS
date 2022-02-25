@@ -37,3 +37,5 @@ console.log(resultante)
 // for (let i = 0; i < v1.length; i++) {
 //     console.log (v1[i])
 // }
+
+//git push -u github master salva o parzinho "apelido + master/main" como padrao, nas proximas vezes que precisar fazer push, basta "git push
