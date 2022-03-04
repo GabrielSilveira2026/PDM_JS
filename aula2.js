@@ -1,15 +1,39 @@
+const valores = [1,2,3,4]
+//reduce
+const soma = valores.reduce((ac,v) => ac + v)
+
 //const: 
-const nomes = ["Ana Maria", "Antonio", "Rodrigo", "Alex", "Cristina"]
+// const nomes = ["Ana Maria", "Antonio", "Rodrigo", "Alex", "Cristina"]
+
+// const todosComecamComA = nome.every ((n) => n.startWith("A"))
+//every = "retorna" boleando, se todos começam com A true, se nn, falso
+
+
+// const res = nome.map((nome) => nome.chatAt(0));
+
+// console.loh (res)
+
+//EXERCICIO: utilizando o map, escreva um trecho de codigo que produz um vetor que contem os comprimentos das strings existente [9,7,7,4,8]
+// const vet = nomes.map((nome) => nome.length)
+
+// console.log(vet)
+
+// const res2 = nomes.map((x) => x.length)
+
+// console.log(res2)
+
+
+
 
 //arrow function
 //() => {}
 
 //verificar se o nome começa com A
-const resultante = nomes.filter((n) => {
-    return n.startsWith("A")
-});
+// const resultante = nomes.filter((n) => {
+//     return n.startsWith("A")
+// });
 
-console.log(resultante)
+// console.log(resultante)
 
 // void f (int a, float b){
     
